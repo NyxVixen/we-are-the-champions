@@ -54,7 +54,7 @@ function appendItemToEndorsementEl(item) {
 
     newEl.textContent = itemValue
 
-    newEl.addEventListener("dblclick", function () {
+    newEl.addEventListener("click", function () {
         let exactLocationOfItemInDB = ref(database, `input-el/${itemID}`)
 
         remove(exactLocationOfItemInDB)
