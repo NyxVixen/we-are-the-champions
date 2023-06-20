@@ -1,0 +1,83 @@
+@font-face {
+    font-family: myFont;
+    src: url(architects-daughter.regular.ttf)
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: myFont;
+    margin: 0;
+    padding: 0;
+    background: #1B1924;
+    color: white;
+    padding-top: 20px;
+    user-select: none;
+}
+
+#hero-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#endorsement-div {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea {
+    background-color: #444059;
+    padding: 10px 0 0 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    resize: none;
+    width: 300px;
+    height: 130px;
+}
+
+input::placeholder {
+    overflow: visible;
+}
+
+button {
+    padding: 10px 100px;    
+    border-radius: 8px;
+    background-color: #28A9F1;
+    width: 317px;
+    text-align: center;
+    font-family: myFont;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+img {
+    margin-top: 30px;
+    max-width: 100px;
+}
+
+ul {
+    margin-top: auto;
+    margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+ul li {
+    color: black;
+    background: white;
+    width: 288px;
+    padding: 10px;
+    margin: 15px;
+    word-wrap: break-word;
+    font-size: 16px;;
+}
